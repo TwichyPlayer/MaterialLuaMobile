@@ -168,6 +168,103 @@ local Themes = {
 		ColorPickerAccent = Color3.fromRGB(219, 68, 103),
 		TextField = Color3.fromRGB(175,175,175),
 		TextFieldAccent = Color3.fromRGB(255,255,255),
+	},
+    -- New Themes
+	DarkBlue = {
+		MainFrame = Color3.fromRGB(25, 25, 35),
+		Minimise = Color3.fromRGB(255,106,0),
+		MinimiseAccent = Color3.fromRGB(147,59,0),
+		Maximise = Color3.fromRGB(25,255,0),
+		MaximiseAccent = Color3.fromRGB(0,255,110),
+		NavBar = Color3.fromRGB(40, 40, 55),
+		NavBarAccent = Color3.fromRGB(100, 150, 255),
+		NavBarInvert = Color3.fromRGB(235,235,235),
+		TitleBar = Color3.fromRGB(40, 40, 55),
+		TitleBarAccent = Color3.fromRGB(100, 150, 255),
+		Overlay = Color3.fromRGB(175,175,175),
+		Banner = Color3.fromRGB(40, 40, 55),
+		BannerAccent = Color3.fromRGB(100, 150, 255),
+		Content = Color3.fromRGB(50, 50, 70),
+		Button = Color3.fromRGB(50, 50, 70),
+		ButtonAccent = Color3.fromRGB(255,255,255),
+		ChipSet = Color3.fromRGB(235,235,235),
+		ChipSetAccent = Color3.fromRGB(50, 50, 70),
+		DataTable = Color3.fromRGB(235,235,235),
+		DataTableAccent = Color3.fromRGB(50, 50, 70),
+		Slider = Color3.fromRGB(50, 50, 70),
+		SliderAccent = Color3.fromRGB(100, 150, 255),
+		Toggle = Color3.fromRGB(60, 60, 80),
+		ToggleAccent = Color3.fromRGB(100, 150, 255),
+		Dropdown = Color3.fromRGB(50, 50, 70),
+		DropdownAccent = Color3.fromRGB(200, 200, 255),
+		ColorPicker = Color3.fromRGB(50, 50, 70),
+		ColorPickerAccent = Color3.fromRGB(200, 200, 255),
+		TextField = Color3.fromRGB(60, 60, 80),
+		TextFieldAccent = Color3.fromRGB(255,255,255),
+	},
+    DarkTeal = {
+		MainFrame = Color3.fromRGB(20, 30, 30),
+		Minimise = Color3.fromRGB(255,106,0),
+		MinimiseAccent = Color3.fromRGB(147,59,0),
+		Maximise = Color3.fromRGB(25,255,0),
+		MaximiseAccent = Color3.fromRGB(0,255,110),
+		NavBar = Color3.fromRGB(35, 50, 50),
+		NavBarAccent = Color3.fromRGB(0, 255, 200),
+		NavBarInvert = Color3.fromRGB(235,235,235),
+		TitleBar = Color3.fromRGB(35, 50, 50),
+		TitleBarAccent = Color3.fromRGB(0, 255, 200),
+		Overlay = Color3.fromRGB(175,175,175),
+		Banner = Color3.fromRGB(35, 50, 50),
+		BannerAccent = Color3.fromRGB(0, 255, 200),
+		Content = Color3.fromRGB(45, 65, 65),
+		Button = Color3.fromRGB(45, 65, 65),
+		ButtonAccent = Color3.fromRGB(255,255,255),
+		ChipSet = Color3.fromRGB(235,235,235),
+		ChipSetAccent = Color3.fromRGB(45, 65, 65),
+		DataTable = Color3.fromRGB(235,235,235),
+		DataTableAccent = Color3.fromRGB(45, 65, 65),
+		Slider = Color3.fromRGB(45, 65, 65),
+		SliderAccent = Color3.fromRGB(0, 255, 200),
+		Toggle = Color3.fromRGB(55, 75, 75),
+		ToggleAccent = Color3.fromRGB(0, 255, 200),
+		Dropdown = Color3.fromRGB(45, 65, 65),
+		DropdownAccent = Color3.fromRGB(200, 255, 240),
+		ColorPicker = Color3.fromRGB(45, 65, 65),
+		ColorPickerAccent = Color3.fromRGB(200, 255, 240),
+		TextField = Color3.fromRGB(55, 75, 75),
+		TextFieldAccent = Color3.fromRGB(255,255,255),
+	},
+	Void = {
+		MainFrame = Color3.fromRGB(10, 10, 10),
+		Minimise = Color3.fromRGB(255,106,0),
+		MinimiseAccent = Color3.fromRGB(147,59,0),
+		Maximise = Color3.fromRGB(25,255,0),
+		MaximiseAccent = Color3.fromRGB(0,255,110),
+		NavBar = Color3.fromRGB(20, 20, 20),
+		NavBarAccent = Color3.fromRGB(255, 255, 255),
+		NavBarInvert = Color3.fromRGB(255,255,255),
+		TitleBar = Color3.fromRGB(20, 20, 20),
+		TitleBarAccent = Color3.fromRGB(255, 255, 255),
+		Overlay = Color3.fromRGB(100,100,100),
+		Banner = Color3.fromRGB(20, 20, 20),
+		BannerAccent = Color3.fromRGB(255, 255, 255),
+		Content = Color3.fromRGB(30, 30, 30),
+		Button = Color3.fromRGB(30, 30, 30),
+		ButtonAccent = Color3.fromRGB(255,255,255),
+		ChipSet = Color3.fromRGB(200,200,200),
+		ChipSetAccent = Color3.fromRGB(30, 30, 30),
+		DataTable = Color3.fromRGB(200,200,200),
+		DataTableAccent = Color3.fromRGB(30, 30, 30),
+		Slider = Color3.fromRGB(30, 30, 30),
+		SliderAccent = Color3.fromRGB(255, 255, 255),
+		Toggle = Color3.fromRGB(40, 40, 40),
+		ToggleAccent = Color3.fromRGB(255, 255, 255),
+		Dropdown = Color3.fromRGB(30, 30, 30),
+		DropdownAccent = Color3.fromRGB(255, 255, 255),
+		ColorPicker = Color3.fromRGB(30, 30, 30),
+		ColorPickerAccent = Color3.fromRGB(255, 255, 255),
+		TextField = Color3.fromRGB(40, 40, 40),
+		TextFieldAccent = Color3.fromRGB(255,255,255),
 	}
 }
 
@@ -310,8 +407,9 @@ function Objects.new(Type)
 end
 
 local function GetXY(GuiObject)
+    local MouseLocation = InputService:GetMouseLocation()
 	local Max, May = GuiObject.AbsoluteSize.X, GuiObject.AbsoluteSize.Y
-	local Px, Py = math.clamp(Mouse.X - GuiObject.AbsolutePosition.X, 0, Max), math.clamp(Mouse.Y - GuiObject.AbsolutePosition.Y, 0, May)
+	local Px, Py = math.clamp(MouseLocation.X - GuiObject.AbsolutePosition.X, 0, Max), math.clamp(MouseLocation.Y - GuiObject.AbsolutePosition.Y, 0, May)
 	return Px/Max, Py/May
 end
 
@@ -362,15 +460,15 @@ local NavBar = {
 		NavBarContent.ChildAdded:Connect(function(Child)
 			pcall(function()
 				local Children = #NavBarContent:GetChildren() - 2
-				TweenService:Create(Child, TweenInfo.new(1), {TextTransparency = (Children > 1) and 0.5 or 0}):Play()
+				TweenService:Create(Child, TweenInfo.new(0.6), {TextTransparency = (Children > 1) and 0.5 or 0}):Play()
 			end)
 			pcall(function()
 				local Children = #NavBarContent:GetChildren() - 2
-				TweenService:Create(Child, TweenInfo.new(1), {ImageTransparency = (Children > 1) and 0.5 or 0}):Play()
+				TweenService:Create(Child, TweenInfo.new(0.6), {ImageTransparency = (Children > 1) and 0.5 or 0}):Play()
 			end)
 			pcall(function()
 				local Children = #NavBarContent:GetChildren() - 2
-				TweenService:Create(Child:FindFirstChildWhichIsA("ImageLabel"), TweenInfo.new(1), {ImageTransparency = (Children > 1) and 0.5 or 0}):Play()
+				TweenService:Create(Child:FindFirstChildWhichIsA("ImageLabel"), TweenInfo.new(0.6), {ImageTransparency = (Children > 1) and 0.5 or 0}):Play()
 			end)
 			pcall(function()
 				Child.TextColor3 = ThisTheme.NavBarAccent
@@ -411,8 +509,8 @@ local NavBar = {
 		NavBarShadow.Parent = NewNavBar
 		NavBarShadow.ZIndex = 100
 
-		TweenService:Create(NewNavBar, TweenInfo.new(1), {ImageTransparency = 0}):Play()
-		TweenService:Create(NavBarShadow, TweenInfo.new(1), {ImageTransparency = 0}):Play()
+		TweenService:Create(NewNavBar, TweenInfo.new(0.6), {ImageTransparency = 0}):Play()
+		TweenService:Create(NavBarShadow, TweenInfo.new(0.6), {ImageTransparency = 0}):Play()
 
 		local NavBarContent = Objects.new("Frame")
 		NavBarContent.Name = "Content"
@@ -421,15 +519,15 @@ local NavBar = {
 		NavBarContent.ChildAdded:Connect(function(Child)
 			pcall(function()
 				local Children = #NavBarContent:GetChildren() - 2
-				TweenService:Create(Child, TweenInfo.new(1), {TextTransparency = (Children > 1) and 0.5 or 0}):Play()
+				TweenService:Create(Child, TweenInfo.new(0.6), {TextTransparency = (Children > 1) and 0.5 or 0}):Play()
 			end)
 			pcall(function()
 				local Children = #NavBarContent:GetChildren() - 2
-				TweenService:Create(Child, TweenInfo.new(1), {ImageTransparency = (Children > 1) and 0.5 or 0}):Play()
+				TweenService:Create(Child, TweenInfo.new(0.6), {ImageTransparency = (Children > 1) and 0.5 or 0}):Play()
 			end)
 			pcall(function()
 				local Children = #NavBarContent:GetChildren() - 2
-				TweenService:Create(Child:FindFirstChildWhichIsA("ImageLabel"), TweenInfo.new(1), {ImageTransparency = (Children > 1) and 0.5 or 0}):Play()
+				TweenService:Create(Child:FindFirstChildWhichIsA("ImageLabel"), TweenInfo.new(0.6), {ImageTransparency = (Children > 1) and 0.5 or 0}):Play()
 			end)
 			pcall(function()
 				Child.TextColor3 = ThisTheme.NavBar
@@ -527,15 +625,15 @@ local NavBar = {
 		NavBarContent.ChildAdded:Connect(function(Child)
 			pcall(function()
 				local Children = #NavBarContent:GetChildren() - 2
-				TweenService:Create(Child, TweenInfo.new(1), {TextTransparency = (Children > 1) and 0.5 or 0}):Play()
+				TweenService:Create(Child, TweenInfo.new(0.6), {TextTransparency = (Children > 1) and 0.5 or 0}):Play()
 			end)
 			pcall(function()
 				local Children = #NavBarContent:GetChildren() - 2
-				TweenService:Create(Child, TweenInfo.new(1), {ImageTransparency = (Children > 1) and 0.5 or 0}):Play()
+				TweenService:Create(Child, TweenInfo.new(0.6), {ImageTransparency = (Children > 1) and 0.5 or 0}):Play()
 			end)
 			pcall(function()
 				local Children = #NavBarContent:GetChildren() - 2
-				TweenService:Create(Child:FindFirstChildWhichIsA("ImageLabel"), TweenInfo.new(1), {ImageTransparency = (Children > 1) and 0.5 or 0}):Play()
+				TweenService:Create(Child:FindFirstChildWhichIsA("ImageLabel"), TweenInfo.new(0.6), {ImageTransparency = (Children > 1) and 0.5 or 0}):Play()
 			end)
 			pcall(function()
 				Child.Size = UDim2.fromScale(1,0) + UDim2.fromOffset(0,30)
@@ -574,7 +672,7 @@ function TryAddMenu(Object, Menu, ReturnTable)
 		MenuButton.ImageTransparency = 1
 		MenuButton.Parent = Object
 
-		TweenService:Create(MenuButton, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
+		TweenService:Create(MenuButton, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
 
 		local Size = Total * 30 + ((Total + 1) * 2)
 
@@ -686,9 +784,9 @@ function CreateNewButton(ButtonConfig, Parent)
 	ButtonLabel.TextTransparency = 1
 	ButtonLabel.Parent = Button
 
-	TweenService:Create(Button, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-	TweenService:Create(ButtonShadow, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-	TweenService:Create(ButtonLabel, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
+	TweenService:Create(Button, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+	TweenService:Create(ButtonShadow, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+	TweenService:Create(ButtonLabel, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
 
 	Button.MouseButton1Down:Connect(function()
 		CircleAnim(ButtonLabel, ThisTheme.ButtonAccent, ThisTheme.Button)
@@ -757,7 +855,7 @@ function Material.Load(Config)
 	MainFrame.ImageColor3 = Theme.MainFrame
 	MainFrame.Parent = NewInstance
 
-	TweenService:Create(MainFrame, TweenInfo.new(1), {Size = UDim2.fromOffset(SizeX,SizeY)}):Play()
+	TweenService:Create(MainFrame, TweenInfo.new(0.6), {Size = UDim2.fromOffset(SizeX,SizeY)}):Play()
 
 	wait(1)
 
@@ -792,16 +890,11 @@ function Material.Load(Config)
 	TitleText.Font = Enum.Font.Roboto
 	TitleText.Parent = TitleBar
 
-    -- // DRAGGABLE SYSTEM (MOBILE COMPATIBLE REWRITE) // --
-    local dragging = nil
+    -- // DRAGGABLE SYSTEM (MOBILE & PC) // --
+    local dragging = false
     local dragInput = nil
     local dragStart = nil
     local startPos = nil
-
-    local function update(input)
-        local delta = input.Position - dragStart
-        MainFrame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-    end
 
     TitleBar.InputBegan:Connect(function(input)
         if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
@@ -825,7 +918,8 @@ function Material.Load(Config)
 
     InputService.InputChanged:Connect(function(input)
         if input == dragInput and dragging then
-            update(input)
+            local delta = input.Position - dragStart
+            MainFrame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
         end
     end)
     -- // END DRAGGABLE SYSTEM // --
@@ -868,22 +962,22 @@ function Material.Load(Config)
 	local NavigationBar, NavigationBarContent, NavBarMenu, NavBarOverlay = NavBar[Styles[Style]]()
 	NavigationBar.Parent = MainFrame
 
-	TweenService:Create(TitleBar, TweenInfo.new(1), {ImageTransparency = 0}):Play()
-	TweenService:Create(ExtraBar, TweenInfo.new(1), {BackgroundTransparency = 0}):Play()
-	TweenService:Create(TitleShadow, TweenInfo.new(1), {ImageTransparency = 0}):Play()
-	TweenService:Create(TitleText, TweenInfo.new(1), {TextTransparency = 0}):Play()
-	TweenService:Create(MinimiseButton, TweenInfo.new(1), {ImageTransparency = 0}):Play()
-	TweenService:Create(MinimiseShadow, TweenInfo.new(1), {ImageTransparency = 0}):Play()
-	TweenService:Create(Content, TweenInfo.new(1), {ImageTransparency = 0.8}):Play()
+	TweenService:Create(TitleBar, TweenInfo.new(0.6), {ImageTransparency = 0}):Play()
+	TweenService:Create(ExtraBar, TweenInfo.new(0.6), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(TitleShadow, TweenInfo.new(0.6), {ImageTransparency = 0}):Play()
+	TweenService:Create(TitleText, TweenInfo.new(0.6), {TextTransparency = 0}):Play()
+	TweenService:Create(MinimiseButton, TweenInfo.new(0.6), {ImageTransparency = 0}):Play()
+	TweenService:Create(MinimiseShadow, TweenInfo.new(0.6), {ImageTransparency = 0}):Play()
+	TweenService:Create(Content, TweenInfo.new(0.6), {ImageTransparency = 0.8}):Play()
 
 	wait(1)
 
 	if NavBarMenu then
-		TweenService:Create(TitleText, TweenInfo.new(0.5), {
+		TweenService:Create(TitleText, TweenInfo.new(0.3), {
 			Size = TitleText.Size - UDim2.fromOffset(25,0),
 			Position = TitleText.Position + UDim2.fromOffset(25,0)
 		}):Play()
-		TweenService:Create(Content, TweenInfo.new(0.5), {
+		TweenService:Create(Content, TweenInfo.new(0.3), {
 			Size = Content.Size + UDim2.fromOffset(0,35),
 			Position = Content.Position - UDim2.fromOffset(0,35)
 		}):Play()
@@ -891,7 +985,7 @@ function Material.Load(Config)
 		NavBarMenu.ImageTransparency = 1
 		NavBarMenu.Parent = TitleBar
 
-		TweenService:Create(NavBarMenu, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
+		TweenService:Create(NavBarMenu, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
 
 		NavBarOverlay.Parent = MainFrame
 
@@ -968,9 +1062,9 @@ function Material.Load(Config)
 		BannerLabel.ZIndex = 80
 		BannerLabel.Parent = Banner
 
-		TweenService:Create(BannerOverlay, TweenInfo.new(0.5), {BackgroundTransparency = 0.5}):Play()
-		TweenService:Create(Banner, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-		TweenService:Create(BannerLabel, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
+		TweenService:Create(BannerOverlay, TweenInfo.new(0.3), {BackgroundTransparency = 0.5}):Play()
+		TweenService:Create(Banner, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+		TweenService:Create(BannerLabel, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
 
 		local BannerContainer = Objects.new("Frame")
 		BannerContainer.Name = "Options"
@@ -988,10 +1082,10 @@ function Material.Load(Config)
 		BannerList.Parent = BannerContainer
 
 		BannerOptions["Ok"] = function()
-			TweenService:Create(BannerContainer, TweenInfo.new(0.5), {Size = UDim2.fromScale(1,0) + UDim2.fromOffset(-10,0)}):Play()
-			TweenService:Create(BannerOverlay, TweenInfo.new(0.5), {BackgroundTransparency = 1}):Play()
-			TweenService:Create(Banner, TweenInfo.new(0.5), {ImageTransparency = 1}):Play()
-			TweenService:Create(BannerLabel, TweenInfo.new(0.5), {TextTransparency = 1}):Play()
+			TweenService:Create(BannerContainer, TweenInfo.new(0.3), {Size = UDim2.fromScale(1,0) + UDim2.fromOffset(-10,0)}):Play()
+			TweenService:Create(BannerOverlay, TweenInfo.new(0.3), {BackgroundTransparency = 1}):Play()
+			TweenService:Create(Banner, TweenInfo.new(0.3), {ImageTransparency = 1}):Play()
+			TweenService:Create(BannerLabel, TweenInfo.new(0.3), {TextTransparency = 1}):Play()
 		end
 
 		for Option, Value in pairs(BannerOptions) do
@@ -1024,7 +1118,7 @@ function Material.Load(Config)
 			end
 		end
 
-		TweenService:Create(BannerContainer, TweenInfo.new(0.5), {Size = UDim2.fromScale(1,0) + UDim2.fromOffset(-10,30)}):Play()
+		TweenService:Create(BannerContainer, TweenInfo.new(0.3), {Size = UDim2.fromScale(1,0) + UDim2.fromOffset(-10,30)}):Play()
 	end
 
 	function TabLibrary.New(TabConfig)
@@ -1206,10 +1300,10 @@ function Material.Load(Config)
 			DropdownButton.ImageTransparency = 1
 			DropdownButton.Parent = DropdownToggle
 
-			TweenService:Create(DropdownBar, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-			TweenService:Create(DropdownTitle, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
-			TweenService:Create(DropdownToggle, TweenInfo.new(0.5), {ImageTransparency = 0.8}):Play()
-			TweenService:Create(DropdownButton, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
+			TweenService:Create(DropdownBar, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+			TweenService:Create(DropdownTitle, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
+			TweenService:Create(DropdownToggle, TweenInfo.new(0.3), {ImageTransparency = 0.8}):Play()
+			TweenService:Create(DropdownButton, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
 
 			local DropdownContent = Objects.new("Frame")
 			DropdownContent.Name = "Content"
@@ -1370,7 +1464,7 @@ function Material.Load(Config)
 
 				ChipSetCallback(BuildTable)
 
-				TweenService:Create(ChipSet, TweenInfo.new(0.5), {ImageTransparency = 0.9}):Play()
+				TweenService:Create(ChipSet, TweenInfo.new(0.3), {ImageTransparency = 0.9}):Play()
 
 				for Key, Value in pairs(ChipSetOptions) do
 					local ChipItem = Objects.new("SmoothButton")
@@ -1405,10 +1499,10 @@ function Material.Load(Config)
 					ChipLabel.TextTransparency = 1
 					ChipLabel.Parent = ChipItem
 
-					TweenService:Create(ChipItem, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-					TweenService:Create(ChipShadow, TweenInfo.new(0.5), {ImageTransparency = 0.2}):Play()
-					TweenService:Create(Tick, TweenInfo.new(0.5), {ImageTransparency = BuildTable[Key] and 0 or 1}):Play()
-					TweenService:Create(ChipLabel, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
+					TweenService:Create(ChipItem, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+					TweenService:Create(ChipShadow, TweenInfo.new(0.3), {ImageTransparency = 0.2}):Play()
+					TweenService:Create(Tick, TweenInfo.new(0.3), {ImageTransparency = BuildTable[Key] and 0 or 1}):Play()
+					TweenService:Create(ChipLabel, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
 
 					local ChipMenu
 
@@ -1479,7 +1573,7 @@ function Material.Load(Config)
 
 					ChipSetCallback(BuildTable)
 
-					TweenService:Create(ChipSet, TweenInfo.new(0.5), {ImageTransparency = 0.9}):Play()
+					TweenService:Create(ChipSet, TweenInfo.new(0.3), {ImageTransparency = 0.9}):Play()
 
 					for Key, Value in pairs(ChipSetOptions) do
 						local ChipItem = Objects.new("SmoothButton")
@@ -1514,10 +1608,10 @@ function Material.Load(Config)
 						ChipLabel.TextTransparency = 1
 						ChipLabel.Parent = ChipItem
 
-						TweenService:Create(ChipItem, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-						TweenService:Create(ChipShadow, TweenInfo.new(0.5), {ImageTransparency = 0.2}):Play()
-						TweenService:Create(Tick, TweenInfo.new(0.5), {ImageTransparency = BuildTable[Key] and 0 or 1}):Play()
-						TweenService:Create(ChipLabel, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
+						TweenService:Create(ChipItem, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+						TweenService:Create(ChipShadow, TweenInfo.new(0.3), {ImageTransparency = 0.2}):Play()
+						TweenService:Create(Tick, TweenInfo.new(0.3), {ImageTransparency = BuildTable[Key] and 0 or 1}):Play()
+						TweenService:Create(ChipLabel, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
 
 						local ChipMenu
 
@@ -1609,8 +1703,8 @@ function Material.Load(Config)
 
 				DataTableCallback(BuildTable)
 
-				TweenService:Create(DataTable, TweenInfo.new(0.5), {ImageTransparency = 0.9}):Play()
-				TweenService:Create(DataShadow, TweenInfo.new(0.5), {ImageTransparency = 0.8}):Play()
+				TweenService:Create(DataTable, TweenInfo.new(0.3), {ImageTransparency = 0.9}):Play()
+				TweenService:Create(DataShadow, TweenInfo.new(0.3), {ImageTransparency = 0.8}):Play()
 
 				for Key, Value in pairs(DataTableOptions) do
 					local DataItem = Objects.new("SmoothButton")
@@ -1650,10 +1744,10 @@ function Material.Load(Config)
 					DataLabel.TextTransparency = 1
 					DataLabel.Parent = DataItem
 
-					TweenService:Create(DataItem, TweenInfo.new(0.5), {ImageTransparency = BuildTable[Key] and 0.8 or 0}):Play()
-					TweenService:Create(DataTracker, TweenInfo.new(0.5), {ImageTransparency = BuildTable[Key] and 0 or 0.8}):Play()
-					TweenService:Create(Tick, TweenInfo.new(0.5), {ImageTransparency = BuildTable[Key] and 0 or 0.7}):Play()
-					TweenService:Create(DataLabel, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
+					TweenService:Create(DataItem, TweenInfo.new(0.3), {ImageTransparency = BuildTable[Key] and 0.8 or 0}):Play()
+					TweenService:Create(DataTracker, TweenInfo.new(0.3), {ImageTransparency = BuildTable[Key] and 0 or 0.8}):Play()
+					TweenService:Create(Tick, TweenInfo.new(0.3), {ImageTransparency = BuildTable[Key] and 0 or 0.7}):Play()
+					TweenService:Create(DataLabel, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
 
 					local DataMenu
 
@@ -1724,8 +1818,8 @@ function Material.Load(Config)
 
 					DataTableCallback(BuildTable)
 
-					TweenService:Create(DataTable, TweenInfo.new(0.5), {ImageTransparency = 0.9}):Play()
-					TweenService:Create(DataShadow, TweenInfo.new(0.5), {ImageTransparency = 0.8}):Play()
+					TweenService:Create(DataTable, TweenInfo.new(0.3), {ImageTransparency = 0.9}):Play()
+					TweenService:Create(DataShadow, TweenInfo.new(0.3), {ImageTransparency = 0.8}):Play()
 
 					for Key, Value in pairs(DataTableOptions) do
 						local DataItem = Objects.new("SmoothButton")
@@ -1765,10 +1859,10 @@ function Material.Load(Config)
 						DataLabel.TextTransparency = 1
 						DataLabel.Parent = DataItem
 
-						TweenService:Create(DataItem, TweenInfo.new(0.5), {ImageTransparency = BuildTable[Key] and 0.8 or 0}):Play()
-						TweenService:Create(DataTracker, TweenInfo.new(0.5), {ImageTransparency = BuildTable[Key] and 0 or 0.8}):Play()
-						TweenService:Create(Tick, TweenInfo.new(0.5), {ImageTransparency = BuildTable[Key] and 0 or 0.7}):Play()
-						TweenService:Create(DataLabel, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
+						TweenService:Create(DataItem, TweenInfo.new(0.3), {ImageTransparency = BuildTable[Key] and 0.8 or 0}):Play()
+						TweenService:Create(DataTracker, TweenInfo.new(0.3), {ImageTransparency = BuildTable[Key] and 0 or 0.8}):Play()
+						TweenService:Create(Tick, TweenInfo.new(0.3), {ImageTransparency = BuildTable[Key] and 0 or 0.7}):Play()
+						TweenService:Create(DataLabel, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
 
 						local DataMenu
 
@@ -1969,21 +2063,21 @@ function Material.Load(Config)
 			local SaturationShadowGrad = SaturationGradient:Clone()
 			SaturationShadowGrad.Parent = SaturationShadow
 
-			TweenService:Create(ColorPicker, TweenInfo.new(0.5), {ImageTransparency = 0.5}):Play()
-			TweenService:Create(ColorBar, TweenInfo.new(0.5), {ImageTransparency = 0.8}):Play()
-			TweenService:Create(ColorShadow, TweenInfo.new(0.5), {ImageTransparency = 0.5}):Play()
-			TweenService:Create(ColorLabel, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
-			TweenService:Create(HueLabel, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
-			TweenService:Create(SaturationLabel, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
-			TweenService:Create(ValueLabel, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
-			TweenService:Create(ColorTracker, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-			TweenService:Create(TrackerShadow, TweenInfo.new(0.5), {ImageTransparency = 0.2}):Play()
-			TweenService:Create(HueTracker, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-			TweenService:Create(ValueTracker, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-			TweenService:Create(SaturationTracker, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-			TweenService:Create(HueShadow, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-			TweenService:Create(SaturationShadow, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-			TweenService:Create(ValueShadow, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
+			TweenService:Create(ColorPicker, TweenInfo.new(0.3), {ImageTransparency = 0.5}):Play()
+			TweenService:Create(ColorBar, TweenInfo.new(0.3), {ImageTransparency = 0.8}):Play()
+			TweenService:Create(ColorShadow, TweenInfo.new(0.3), {ImageTransparency = 0.5}):Play()
+			TweenService:Create(ColorLabel, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
+			TweenService:Create(HueLabel, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
+			TweenService:Create(SaturationLabel, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
+			TweenService:Create(ValueLabel, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
+			TweenService:Create(ColorTracker, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+			TweenService:Create(TrackerShadow, TweenInfo.new(0.3), {ImageTransparency = 0.2}):Play()
+			TweenService:Create(HueTracker, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+			TweenService:Create(ValueTracker, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+			TweenService:Create(SaturationTracker, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+			TweenService:Create(HueShadow, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+			TweenService:Create(SaturationShadow, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+			TweenService:Create(ValueShadow, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
 
 			H:GetPropertyChangedSignal("Value"):Connect(function()
 				ColorTracker.ImageColor3 = Color3.fromHSV(H.Value,S.Value,V.Value)
@@ -2024,47 +2118,30 @@ function Material.Load(Config)
 				ColorPickerCallback(Color3.fromHSV(H.Value,S.Value,V.Value))
 			end)
 
-			HueTracker.MouseButton1Down:Connect(function()
-				H.Value = 1 - GetXY(HueTracker)
-				local MouseMove, MouseKill
-				MouseMove = Mouse.Move:Connect(function()
-					H.Value = 1 - GetXY(HueTracker)
-				end)
-				MouseKill = InputService.InputEnded:Connect(function(UserInput)
-					if UserInput.UserInputType == Enum.UserInputType.MouseButton1 then
-						MouseMove:Disconnect()
-						MouseKill:Disconnect()
-					end
-				end)
-			end)
+            -- Revised Color Picker Input Logic (Fixes selection sticking)
+            local function SetupColorInput(Obj, ValObj)
+                Obj.InputBegan:Connect(function(Input)
+                    if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
+                        ValObj.Value = 1 - GetXY(Obj)
+                        local Connection
+                        Connection = RunService.RenderStepped:Connect(function()
+                            ValObj.Value = 1 - GetXY(Obj)
+                        end)
+                        
+                        local ReleaseConnection
+                        ReleaseConnection = InputService.InputEnded:Connect(function(EndInput)
+                            if EndInput.UserInputType == Enum.UserInputType.MouseButton1 or EndInput.UserInputType == Enum.UserInputType.Touch then
+                                Connection:Disconnect()
+                                ReleaseConnection:Disconnect()
+                            end
+                        end)
+                    end
+                end)
+            end
 
-			ValueTracker.MouseButton1Down:Connect(function()
-				V.Value = 1 - GetXY(HueTracker)
-				local MouseMove, MouseKill
-				MouseMove = Mouse.Move:Connect(function()
-					V.Value = 1 - GetXY(HueTracker)
-				end)
-				MouseKill = InputService.InputEnded:Connect(function(UserInput)
-					if UserInput.UserInputType == Enum.UserInputType.MouseButton1 then
-						MouseMove:Disconnect()
-						MouseKill:Disconnect()
-					end
-				end)
-			end)
-
-			SaturationTracker.MouseButton1Down:Connect(function()
-				S.Value = 1 - GetXY(HueTracker)
-				local MouseMove, MouseKill
-				MouseMove = Mouse.Move:Connect(function()
-					S.Value = 1 - GetXY(HueTracker)
-				end)
-				MouseKill = InputService.InputEnded:Connect(function(UserInput)
-					if UserInput.UserInputType == Enum.UserInputType.MouseButton1 then
-						MouseMove:Disconnect()
-						MouseKill:Disconnect()
-					end
-				end)
-			end)
+            SetupColorInput(HueTracker, H)
+            SetupColorInput(ValueTracker, V)
+            SetupColorInput(SaturationTracker, S)
 
 			local MenuAdded, MenuButton = TryAddMenu(ColorLabel, ColorPickerMenu, {})
 
@@ -2145,11 +2222,11 @@ function Material.Load(Config)
 			ToggleLabel.ClipsDescendants = true
 			ToggleLabel.Parent = Toggle
 
-			TweenService:Create(Toggle, TweenInfo.new(0.5), {ImageTransparency = 0.8}):Play()
-			TweenService:Create(ToggleTracker, TweenInfo.new(0.5), {ImageTransparency = 0.5}):Play()
-			TweenService:Create(Dot, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-			TweenService:Create(DotShadow, TweenInfo.new(0.5), {ImageTransparency = 0.5}):Play()
-			TweenService:Create(ToggleLabel, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
+			TweenService:Create(Toggle, TweenInfo.new(0.3), {ImageTransparency = 0.8}):Play()
+			TweenService:Create(ToggleTracker, TweenInfo.new(0.3), {ImageTransparency = 0.5}):Play()
+			TweenService:Create(Dot, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+			TweenService:Create(DotShadow, TweenInfo.new(0.3), {ImageTransparency = 0.5}):Play()
+			TweenService:Create(ToggleLabel, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
 
 			TweenService:Create(Dot, TweenInfo.new(0.15), {Position = (ToggleDefault and UDim2.fromScale(1,0.5) or UDim2.fromScale(0,0.5)) - UDim2.fromOffset(8,8), ImageColor3 = ToggleDefault and Theme.Toggle or Theme.ToggleAccent}):Play()
 			ToggleCallback(ToggleDefault)
@@ -2229,19 +2306,19 @@ function Material.Load(Config)
 			TextInput.TextTransparency = 1
 			TextInput.Parent = TextField
 
-			TweenService:Create(TextField, TweenInfo.new(0.5), {ImageTransparency = 0.8}):Play()
-			TweenService:Create(TextEffect, TweenInfo.new(0.5), {BackgroundTransparency = 0.2}):Play()
-			TweenService:Create(TextShadow, TweenInfo.new(0.5), {ImageTransparency = 0.7}):Play()
-			TweenService:Create(TextInput, TweenInfo.new(0.5), {TextTransparency = 0.5}):Play()
+			TweenService:Create(TextField, TweenInfo.new(0.3), {ImageTransparency = 0.8}):Play()
+			TweenService:Create(TextEffect, TweenInfo.new(0.3), {BackgroundTransparency = 0.2}):Play()
+			TweenService:Create(TextShadow, TweenInfo.new(0.3), {ImageTransparency = 0.7}):Play()
+			TweenService:Create(TextInput, TweenInfo.new(0.3), {TextTransparency = 0.5}):Play()
 
 			TextInput.Focused:Connect(function()
-				TweenService:Create(TextField, TweenInfo.new(0.5), {ImageTransparency = 0.7}):Play()
-				TweenService:Create(TextInput, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
+				TweenService:Create(TextField, TweenInfo.new(0.3), {ImageTransparency = 0.7}):Play()
+				TweenService:Create(TextInput, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
 			end)
 
 			TextInput.FocusLost:Connect(function()
-				TweenService:Create(TextField, TweenInfo.new(0.5), {ImageTransparency = 0.8}):Play()
-				TweenService:Create(TextInput, TweenInfo.new(0.5), {TextTransparency = 0.5}):Play()
+				TweenService:Create(TextField, TweenInfo.new(0.3), {ImageTransparency = 0.8}):Play()
+				TweenService:Create(TextInput, TweenInfo.new(0.3), {TextTransparency = 0.5}):Play()
 				TextFieldCallback(TextInput.Text)
 			end)
 
@@ -2379,37 +2456,43 @@ function Material.Load(Config)
 			SliderFadedDot.ZIndex = 50
 			SliderFadedDot.Parent = SliderDot
 
-			TweenService:Create(Slider, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-			TweenService:Create(SliderShadow, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
-			TweenService:Create(SliderTitle, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
-			TweenService:Create(SliderValue, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
-			TweenService:Create(SliderTracker, TweenInfo.new(0.5), {BackgroundTransparency = 0.5}):Play()
-			TweenService:Create(SliderFill, TweenInfo.new(0.5), {BackgroundTransparency = 0}):Play()
-			TweenService:Create(SliderDot, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
+			TweenService:Create(Slider, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+			TweenService:Create(SliderShadow, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
+			TweenService:Create(SliderTitle, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
+			TweenService:Create(SliderValue, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
+			TweenService:Create(SliderTracker, TweenInfo.new(0.3), {BackgroundTransparency = 0.5}):Play()
+			TweenService:Create(SliderFill, TweenInfo.new(0.3), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(SliderDot, TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
 
-			SliderDot.MouseButton1Down:Connect(function()
-				TweenService:Create(SliderFadedDot, TweenInfo.new(0.15), {ImageTransparency = 0.8}):Play()
-				local MouseMove, MouseKill
-				MouseMove = Mouse.Move:Connect(function()
-					local Px = GetXY(SliderTracker)
-					local SizeFromScale = (MinSize +  (MaxSize - MinSize)) * Px
-					local Power = 10 ^ SliderPrecision
-					local Value = math.floor((SliderMin + ((SliderMax - SliderMin) * Px)) * Power) / Power
-					SizeFromScale = SizeFromScale - (SizeFromScale % 2)
-					TweenService:Create(SliderDot, TweenInfo.new(0.15), {Position = UDim2.fromScale(Px,0.5) - UDim2.fromOffset(5,5)}):Play()
-					TweenService:Create(SliderFill, TweenInfo.new(0.15), {Size = UDim2.fromScale(Px, 1)}):Play()
-					SliderFadedDot.Size = UDim2.fromOffset(SizeFromScale,SizeFromScale)
-					SliderFadedDot.Position = UDim2.fromScale(0.5,0.5) - UDim2.fromOffset(SizeFromScale/2,SizeFromScale/2)
-					SliderValue.Text = tostring(Value)
-					SliderCallback(Value)
-				end)
-				MouseKill = InputService.InputEnded:Connect(function(UserInput)
-					if UserInput.UserInputType == Enum.UserInputType.MouseButton1 then
-						TweenService:Create(SliderFadedDot, TweenInfo.new(0.15), {ImageTransparency = 1}):Play()
-						MouseMove:Disconnect()
-						MouseKill:Disconnect()
-					end
-				end)
+            -- Revised Slider Input Logic (Fixes selection sticking)
+			SliderDot.InputBegan:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
+                    TweenService:Create(SliderFadedDot, TweenInfo.new(0.15), {ImageTransparency = 0.8}):Play()
+                    
+                    local Connection
+                    Connection = RunService.RenderStepped:Connect(function()
+                        local Px = GetXY(SliderTracker)
+                        local SizeFromScale = (MinSize +  (MaxSize - MinSize)) * Px
+                        local Power = 10 ^ SliderPrecision
+                        local Value = math.floor((SliderMin + ((SliderMax - SliderMin) * Px)) * Power) / Power
+                        SizeFromScale = SizeFromScale - (SizeFromScale % 2)
+                        TweenService:Create(SliderDot, TweenInfo.new(0.15), {Position = UDim2.fromScale(Px,0.5) - UDim2.fromOffset(5,5)}):Play()
+                        TweenService:Create(SliderFill, TweenInfo.new(0.15), {Size = UDim2.fromScale(Px, 1)}):Play()
+                        SliderFadedDot.Size = UDim2.fromOffset(SizeFromScale,SizeFromScale)
+                        SliderFadedDot.Position = UDim2.fromScale(0.5,0.5) - UDim2.fromOffset(SizeFromScale/2,SizeFromScale/2)
+                        SliderValue.Text = tostring(Value)
+                        SliderCallback(Value)
+                    end)
+
+                    local ReleaseConnection
+                    ReleaseConnection = InputService.InputEnded:Connect(function(EndInput)
+                        if EndInput.UserInputType == Enum.UserInputType.MouseButton1 or EndInput.UserInputType == Enum.UserInputType.Touch then
+                            Connection:Disconnect()
+                            ReleaseConnection:Disconnect()
+                            TweenService:Create(SliderFadedDot, TweenInfo.new(0.15), {ImageTransparency = 1}):Play()
+                        end
+                    end)
+                end
 			end)
 
 			local MenuAdded, MenuButton = TryAddMenu(Slider, Menu, {})
