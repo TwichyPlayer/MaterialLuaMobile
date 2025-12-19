@@ -1,5 +1,5 @@
 local Player = game:GetService("Players").LocalPlayer
-local Mouse = Player:GetMouse() -- Kept for legacy reference, but logic uses UIS
+local Mouse = Player:GetMouse()
 
 local TextService = game:GetService("TextService")
 local TweenService = game:GetService("TweenService")
@@ -168,103 +168,6 @@ local Themes = {
 		ColorPickerAccent = Color3.fromRGB(219, 68, 103),
 		TextField = Color3.fromRGB(175,175,175),
 		TextFieldAccent = Color3.fromRGB(255,255,255),
-	},
-    -- New Themes
-	DarkBlue = {
-		MainFrame = Color3.fromRGB(25, 25, 35),
-		Minimise = Color3.fromRGB(255,106,0),
-		MinimiseAccent = Color3.fromRGB(147,59,0),
-		Maximise = Color3.fromRGB(25,255,0),
-		MaximiseAccent = Color3.fromRGB(0,255,110),
-		NavBar = Color3.fromRGB(40, 40, 55),
-		NavBarAccent = Color3.fromRGB(100, 150, 255),
-		NavBarInvert = Color3.fromRGB(235,235,235),
-		TitleBar = Color3.fromRGB(40, 40, 55),
-		TitleBarAccent = Color3.fromRGB(100, 150, 255),
-		Overlay = Color3.fromRGB(175,175,175),
-		Banner = Color3.fromRGB(40, 40, 55),
-		BannerAccent = Color3.fromRGB(100, 150, 255),
-		Content = Color3.fromRGB(50, 50, 70),
-		Button = Color3.fromRGB(50, 50, 70),
-		ButtonAccent = Color3.fromRGB(255,255,255),
-		ChipSet = Color3.fromRGB(235,235,235),
-		ChipSetAccent = Color3.fromRGB(50, 50, 70),
-		DataTable = Color3.fromRGB(235,235,235),
-		DataTableAccent = Color3.fromRGB(50, 50, 70),
-		Slider = Color3.fromRGB(50, 50, 70),
-		SliderAccent = Color3.fromRGB(100, 150, 255),
-		Toggle = Color3.fromRGB(60, 60, 80),
-		ToggleAccent = Color3.fromRGB(100, 150, 255),
-		Dropdown = Color3.fromRGB(50, 50, 70),
-		DropdownAccent = Color3.fromRGB(200, 200, 255),
-		ColorPicker = Color3.fromRGB(50, 50, 70),
-		ColorPickerAccent = Color3.fromRGB(200, 200, 255),
-		TextField = Color3.fromRGB(60, 60, 80),
-		TextFieldAccent = Color3.fromRGB(255,255,255),
-	},
-    DarkTeal = {
-		MainFrame = Color3.fromRGB(20, 30, 30),
-		Minimise = Color3.fromRGB(255,106,0),
-		MinimiseAccent = Color3.fromRGB(147,59,0),
-		Maximise = Color3.fromRGB(25,255,0),
-		MaximiseAccent = Color3.fromRGB(0,255,110),
-		NavBar = Color3.fromRGB(35, 50, 50),
-		NavBarAccent = Color3.fromRGB(0, 255, 200),
-		NavBarInvert = Color3.fromRGB(235,235,235),
-		TitleBar = Color3.fromRGB(35, 50, 50),
-		TitleBarAccent = Color3.fromRGB(0, 255, 200),
-		Overlay = Color3.fromRGB(175,175,175),
-		Banner = Color3.fromRGB(35, 50, 50),
-		BannerAccent = Color3.fromRGB(0, 255, 200),
-		Content = Color3.fromRGB(45, 65, 65),
-		Button = Color3.fromRGB(45, 65, 65),
-		ButtonAccent = Color3.fromRGB(255,255,255),
-		ChipSet = Color3.fromRGB(235,235,235),
-		ChipSetAccent = Color3.fromRGB(45, 65, 65),
-		DataTable = Color3.fromRGB(235,235,235),
-		DataTableAccent = Color3.fromRGB(45, 65, 65),
-		Slider = Color3.fromRGB(45, 65, 65),
-		SliderAccent = Color3.fromRGB(0, 255, 200),
-		Toggle = Color3.fromRGB(55, 75, 75),
-		ToggleAccent = Color3.fromRGB(0, 255, 200),
-		Dropdown = Color3.fromRGB(45, 65, 65),
-		DropdownAccent = Color3.fromRGB(200, 255, 240),
-		ColorPicker = Color3.fromRGB(45, 65, 65),
-		ColorPickerAccent = Color3.fromRGB(200, 255, 240),
-		TextField = Color3.fromRGB(55, 75, 75),
-		TextFieldAccent = Color3.fromRGB(255,255,255),
-	},
-	Void = {
-		MainFrame = Color3.fromRGB(10, 10, 10),
-		Minimise = Color3.fromRGB(255,106,0),
-		MinimiseAccent = Color3.fromRGB(147,59,0),
-		Maximise = Color3.fromRGB(25,255,0),
-		MaximiseAccent = Color3.fromRGB(0,255,110),
-		NavBar = Color3.fromRGB(20, 20, 20),
-		NavBarAccent = Color3.fromRGB(255, 255, 255),
-		NavBarInvert = Color3.fromRGB(255,255,255),
-		TitleBar = Color3.fromRGB(20, 20, 20),
-		TitleBarAccent = Color3.fromRGB(255, 255, 255),
-		Overlay = Color3.fromRGB(100,100,100),
-		Banner = Color3.fromRGB(20, 20, 20),
-		BannerAccent = Color3.fromRGB(255, 255, 255),
-		Content = Color3.fromRGB(30, 30, 30),
-		Button = Color3.fromRGB(30, 30, 30),
-		ButtonAccent = Color3.fromRGB(255,255,255),
-		ChipSet = Color3.fromRGB(200,200,200),
-		ChipSetAccent = Color3.fromRGB(30, 30, 30),
-		DataTable = Color3.fromRGB(200,200,200),
-		DataTableAccent = Color3.fromRGB(30, 30, 30),
-		Slider = Color3.fromRGB(30, 30, 30),
-		SliderAccent = Color3.fromRGB(255, 255, 255),
-		Toggle = Color3.fromRGB(40, 40, 40),
-		ToggleAccent = Color3.fromRGB(255, 255, 255),
-		Dropdown = Color3.fromRGB(30, 30, 30),
-		DropdownAccent = Color3.fromRGB(255, 255, 255),
-		ColorPicker = Color3.fromRGB(30, 30, 30),
-		ColorPickerAccent = Color3.fromRGB(255, 255, 255),
-		TextField = Color3.fromRGB(40, 40, 40),
-		TextFieldAccent = Color3.fromRGB(255,255,255),
 	}
 }
 
@@ -406,23 +309,14 @@ function Objects.new(Type)
 	end
 end
 
---// Mobile Compatible GetXY (Detects Touch/Input Object)
-local function GetXY(GuiObject, Input)
+local function GetXY(GuiObject)
 	local Max, May = GuiObject.AbsoluteSize.X, GuiObject.AbsoluteSize.Y
-    local Px, Py
-    if Input then
-        Px = math.clamp(Input.Position.X - GuiObject.AbsolutePosition.X, 0, Max)
-        Py = math.clamp(Input.Position.Y - GuiObject.AbsolutePosition.Y, 0, May)
-    else
-        local MouseLoc = InputService:GetMouseLocation()
-        Px = math.clamp(MouseLoc.X - GuiObject.AbsolutePosition.X, 0, Max)
-        Py = math.clamp(MouseLoc.Y - GuiObject.AbsolutePosition.Y, 0, May)
-    end
+	local Px, Py = math.clamp(Mouse.X - GuiObject.AbsolutePosition.X, 0, Max), math.clamp(Mouse.Y - GuiObject.AbsolutePosition.Y, 0, May)
 	return Px/Max, Py/May
 end
 
-local function CircleAnim(GuiObject, EndColour, StartColour, Input)
-	local PX, PY = GetXY(GuiObject, Input)
+local function CircleAnim(GuiObject, EndColour, StartColour)
+	local PX, PY = GetXY(GuiObject)
 	local Circle = Objects.new("Circle")
 	Circle.Size = UDim2.fromScale(0,0)
 	Circle.Position = UDim2.fromScale(PX,PY)
@@ -669,9 +563,9 @@ function TryAddMenu(Object, Menu, ReturnTable)
 	ReturnTable.Object = Object
 	local Total = 0
 
-	table.foreach(Menu, function(_, Value)
+	for _, Value in pairs(Menu) do
 		Total = Total + ((typeof(Value) == "function") and 1 or 0)
-	end)
+	end
 
 	if Total > 0 then
 		local MenuToggle = false
@@ -717,7 +611,7 @@ function TryAddMenu(Object, Menu, ReturnTable)
 			TweenService:Create(MenuBuild, TweenInfo.new(0.15), {Size = MenuToggle and UDim2.fromOffset(120,Size) or UDim2.fromOffset(120,0)}):Play()
 		end)
 
-		table.foreach(Menu, function(Option, Value)
+		for Option, Value in pairs(Menu) do
 			if typeof(Value) == "function" then
 				local MenuOption = Objects.new("SmoothButton")
 				MenuOption.Name = "MenuOption"
@@ -738,18 +632,16 @@ function TryAddMenu(Object, Menu, ReturnTable)
 				OptionValue.Size = UDim2.fromScale(1,1) - UDim2.fromOffset(5,0)
 				OptionValue.Text = Option
 				OptionValue.TextColor3 = ThisTheme.Button
-				OptionValue.Font = Enum.Font.Gotham
+				OptionValue.Font = Enum.Font.Roboto
 				OptionValue.TextSize = 12
 				OptionValue.ZIndex = 150
 				OptionValue.TextXAlignment = Enum.TextXAlignment.Right
 				OptionValue.Parent = MenuOption
 
-				MenuOption.InputBegan:Connect(function(Input)
-					if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-                        Value(ReturnTable)
-					    MenuToggle = false
-					    TweenService:Create(MenuBuild, TweenInfo.new(0.15), {Size = UDim2.fromOffset(120,0)}):Play()
-                    end
+				MenuOption.MouseButton1Down:Connect(function()
+					Value(ReturnTable)
+					MenuToggle = false
+					TweenService:Create(MenuBuild, TweenInfo.new(0.15), {Size = UDim2.fromOffset(120,0)}):Play()
 				end)
 
 				MenuOption.MouseEnter:Connect(function()
@@ -762,7 +654,7 @@ function TryAddMenu(Object, Menu, ReturnTable)
 					TweenService:Create(OptionShadow, TweenInfo.new(0.15), {ImageTransparency = 1}):Play()
 				end)
 			end
-		end)
+		end
 		return true, MenuButton
 	end
 	return false
@@ -788,7 +680,7 @@ function CreateNewButton(ButtonConfig, Parent)
 	local ButtonLabel = Objects.new("Label")
 	ButtonLabel.Text = ButtonText
 	ButtonLabel.TextColor3 = ThisTheme.ButtonAccent
-	ButtonLabel.Font = Enum.Font.GothamSemibold
+	ButtonLabel.Font = Enum.Font.Roboto
 	ButtonLabel.TextSize = 14
 	ButtonLabel.ClipsDescendants = true
 	ButtonLabel.TextTransparency = 1
@@ -798,11 +690,9 @@ function CreateNewButton(ButtonConfig, Parent)
 	TweenService:Create(ButtonShadow, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
 	TweenService:Create(ButtonLabel, TweenInfo.new(0.5), {TextTransparency = 0}):Play()
 
-	Button.InputBegan:Connect(function(Input)
-        if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-		    CircleAnim(ButtonLabel, ThisTheme.ButtonAccent, ThisTheme.Button, Input)
-		    ButtonCallback()
-        end
+	Button.MouseButton1Down:Connect(function()
+		CircleAnim(ButtonLabel, ThisTheme.ButtonAccent, ThisTheme.Button)
+		ButtonCallback()
 	end)
 
 	local MenuAdded = TryAddMenu(Button, Menu, {})
@@ -899,36 +789,46 @@ function Material.Load(Config)
 	TitleText.Text = Title
 	TitleText.TextColor3 = Theme.TitleBarAccent
 	TitleText.TextTransparency = 1
-	TitleText.Font = Enum.Font.GothamBold
+	TitleText.Font = Enum.Font.Roboto
 	TitleText.Parent = TitleBar
 
-    --// DRAGGABLE LOGIC (MOBILE FIX) //--
-    local Dragging, DragInput, DragStart, StartPos
-    TitleText.InputBegan:Connect(function(Input)
-        if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-            Dragging = true
-            DragStart = Input.Position
-            StartPos = MainFrame.Position
-            
-            Input.Changed:Connect(function()
-                if Input.UserInputState == Enum.UserInputState.End then
-                    Dragging = false
+    -- // DRAGGABLE SYSTEM (MOBILE COMPATIBLE REWRITE) // --
+    local dragging = nil
+    local dragInput = nil
+    local dragStart = nil
+    local startPos = nil
+
+    local function update(input)
+        local delta = input.Position - dragStart
+        MainFrame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    end
+
+    TitleBar.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = input.Position
+            startPos = MainFrame.Position
+
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
                 end
             end)
         end
     end)
-    TitleText.InputChanged:Connect(function(Input)
-        if Input.UserInputType == Enum.UserInputType.MouseMovement or Input.UserInputType == Enum.UserInputType.Touch then
-            DragInput = Input
+
+    TitleBar.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
         end
     end)
-    InputService.InputChanged:Connect(function(Input)
-        if Input == DragInput and Dragging then
-            local Delta = Input.Position - DragStart
-            MainFrame.Position = UDim2.new(StartPos.X.Scale, StartPos.X.Offset + Delta.X, StartPos.Y.Scale, StartPos.Y.Offset + Delta.Y)
+
+    InputService.InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            update(input)
         end
     end)
-    --// END DRAGGABLE //--
+    -- // END DRAGGABLE SYSTEM // --
 
 	local MinimiseButton = Objects.new("SmoothButton")
 	MinimiseButton.Size = UDim2.fromOffset(20,20)
@@ -1039,7 +939,7 @@ function Material.Load(Config)
 		BannerOverlay.ZIndex = 75
 		BannerOverlay.Parent = MainFrame
 
-		local TextSize = TextService:GetTextSize(BannerText, 12, Enum.Font.Gotham, Vector2.new(0,0)).X
+		local TextSize = TextService:GetTextSize(BannerText, 12, Enum.Font.Roboto, Vector2.new(0,0)).X
 
 		local Lines = math.ceil((TextSize) / (MainFrame.AbsoluteSize.X - 10))
 
@@ -1060,7 +960,7 @@ function Material.Load(Config)
 		BannerLabel.Text = BannerText
 		BannerLabel.TextColor3 = Theme.BannerAccent
 		BannerLabel.TextSize = 12
-		BannerLabel.Font = Enum.Font.Gotham
+		BannerLabel.Font = Enum.Font.Roboto
 		BannerLabel.Size = UDim2.fromScale(1,0) + UDim2.fromOffset(-5,(Lines*20)+5)
 		BannerLabel.TextWrapped = true
 		BannerLabel.Position = UDim2.fromOffset(5,0)
@@ -1094,9 +994,9 @@ function Material.Load(Config)
 			TweenService:Create(BannerLabel, TweenInfo.new(0.5), {TextTransparency = 1}):Play()
 		end
 
-		table.foreach(BannerOptions, function(Option, Value)
+		for Option, Value in pairs(BannerOptions) do
 			if typeof(Value) == "function" then
-				local TextSize = TextService:GetTextSize(Option:upper(), 12, Enum.Font.GothamBold, Vector2.new(0,0)).X
+				local TextSize = TextService:GetTextSize(Option:upper(), 12, Enum.Font.Roboto, Vector2.new(0,0)).X
 
 				local OptionItem = Objects.new("SmoothButton")
 				OptionItem.ImageColor3 = Theme.BannerAccent
@@ -1110,21 +1010,19 @@ function Material.Load(Config)
 				OptionLabel.Text = Option:upper()
 				OptionLabel.TextSize = 12
 				OptionLabel.TextColor3 = Theme.BannerAccent
-				OptionLabel.Font = Enum.Font.GothamBold
+				OptionLabel.Font = Enum.Font.Roboto
 				OptionLabel.Size = UDim2.fromScale(1,1)
 				OptionLabel.Position = UDim2.fromScale(0,0)
 				OptionLabel.TextXAlignment = Enum.TextXAlignment.Center
 				OptionLabel.ZIndex = 80
 				OptionLabel.Parent = OptionItem
 
-				OptionItem.InputBegan:Connect(function(Input)
-                    if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-					    Value()
-					    CircleAnim(OptionItem, Theme.Banner, nil, Input)
-                    end
+				OptionItem.MouseButton1Down:Connect(function()
+					Value()
+					CircleAnim(OptionItem, Theme.Banner)
 				end)
 			end
-		end)
+		end
 
 		TweenService:Create(BannerContainer, TweenInfo.new(0.5), {Size = UDim2.fromScale(1,0) + UDim2.fromOffset(-10,30)}):Play()
 	end
@@ -1139,7 +1037,7 @@ function Material.Load(Config)
 			if Title then
 				local Settings = {
 					TextSize = 12,
-					Font = Enum.Font.GothamBold,
+					Font = Enum.Font.Roboto,
 					Vector = Vector2.new(0,0)
 				}
 
@@ -1179,7 +1077,7 @@ function Material.Load(Config)
 		else
 			local Settings = {
 				TextSize = 12,
-				Font = Enum.Font.GothamBold,
+				Font = Enum.Font.Roboto,
 				Vector = Vector2.new(0,0)
 			}
 
@@ -1207,25 +1105,23 @@ function Material.Load(Config)
 		table.insert(ButtonTrack, Button)
 		table.insert(PageTrack, PageContentFrame)
 
-		Button.InputBegan:Connect(function(Input)
-            if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-			    for _, Track in next, ButtonTrack do
-				    if not (Track == Button) then
-					    TweenService:Create(Track, TweenInfo.new(0.15), {TextTransparency = 0.5}):Play()
-					    pcall(function()
-						    TweenService:Create(Track:FindFirstChildWhichIsA("ImageLabel"), TweenInfo.new(0.15), {ImageTransparency = 0.5}):Play()
-					    end)
-				    else
-					    TweenService:Create(Track, TweenInfo.new(0.15), {TextTransparency = 0}):Play()
-					    pcall(function()
-						    TweenService:Create(Track:FindFirstChildWhichIsA("ImageLabel"), TweenInfo.new(0.15), {ImageTransparency = 0}):Play()
-					    end)
-				    end
-			    end
-			    for _, Track in next, PageTrack do
-				    Track.Visible = (Track == PageContentFrame)
-			    end
-            end
+		Button.MouseButton1Down:Connect(function()
+			for _, Track in next, ButtonTrack do
+				if not (Track == Button) then
+					TweenService:Create(Track, TweenInfo.new(0.15), {TextTransparency = 0.5}):Play()
+					pcall(function()
+						TweenService:Create(Track:FindFirstChildWhichIsA("ImageLabel"), TweenInfo.new(0.15), {ImageTransparency = 0.5}):Play()
+					end)
+				else
+					TweenService:Create(Track, TweenInfo.new(0.15), {TextTransparency = 0}):Play()
+					pcall(function()
+						TweenService:Create(Track:FindFirstChildWhichIsA("ImageLabel"), TweenInfo.new(0.15), {ImageTransparency = 0}):Play()
+					end)
+				end
+			end
+			for _, Track in next, PageTrack do
+				Track.Visible = (Track == PageContentFrame)
+			end
 		end)
 
 		local PagePadding = Objects.new("UIPadding")
@@ -1285,7 +1181,7 @@ function Material.Load(Config)
 
 			local DropdownTitle = Objects.new("Button")
 			DropdownTitle.Name = "Title"
-			DropdownTitle.Font = Enum.Font.GothamSemibold
+			DropdownTitle.Font = Enum.Font.Roboto
 			DropdownTitle.Text = DropdownValue and DropdownText..": "..DropdownValue or DropdownText
 			DropdownTitle.TextColor3 = Theme.DropdownAccent
 			DropdownTitle.TextTransparency = 1
@@ -1338,29 +1234,25 @@ function Material.Load(Config)
 				end
 			end)
 
-			table.foreach(DropdownOptions, function(_, Value)
+			for _, Value in pairs(DropdownOptions) do
 				local NewButton = CreateNewButton({
 					Text = Value,
 					Callback = function() end
 				}, DropdownContent)
 
 				NewButton.Size = UDim2.fromScale(1,0) + UDim2.fromOffset(0,20)
-				NewButton.InputBegan:Connect(function(Input)
-                    if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-					    DropdownCallback(Value)
-					    DropdownTitle.Text = DropdownText..": "..Value
-                        DropdownValue = Value
-                    end
+				NewButton.MouseButton1Down:Connect(function()
+					DropdownCallback(Value)
+					DropdownTitle.Text = DropdownText..": "..Value
+                    DropdownValue = Value
 				end)
-			end)
+			end
 
-			DropdownTitle.InputBegan:Connect(function(Input)
-                if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-				    DropToggle = not DropToggle
-				    TweenService:Create(DropdownButton, TweenInfo.new(0.15), {Rotation = DropToggle and 135 or 0}):Play()
-				    TweenService:Create(DropdownContent, TweenInfo.new(0.15), {Size = DropToggle and DropdownSize or UDim2.fromScale(1,0)}):Play()
-				    TweenService:Create(Dropdown, TweenInfo.new(0.15), {Size = DropToggle and (DropdownSize + UDim2.fromOffset(0,35)) or (UDim2.fromScale(1,0) + UDim2.fromOffset(0,30))}):Play()
-                end
+			DropdownTitle.MouseButton1Down:Connect(function()
+				DropToggle = not DropToggle
+				TweenService:Create(DropdownButton, TweenInfo.new(0.15), {Rotation = DropToggle and 135 or 0}):Play()
+				TweenService:Create(DropdownContent, TweenInfo.new(0.15), {Size = DropToggle and DropdownSize or UDim2.fromScale(1,0)}):Play()
+				TweenService:Create(Dropdown, TweenInfo.new(0.15), {Size = DropToggle and (DropdownSize + UDim2.fromOffset(0,35)) or (UDim2.fromScale(1,0) + UDim2.fromOffset(0,30))}):Play()
 			end)
 
 			local MenuAdded, MenuButton = TryAddMenu(DropdownBar, Menu, {})
@@ -1407,21 +1299,19 @@ function Material.Load(Config)
 				DropdownList.Padding = UDim.new(0,5)
 				DropdownList.Parent = DropdownContent
 
-				table.foreach(DropdownOptions, function(_, Value)
+				for _, Value in pairs(DropdownOptions) do
 					local NewButton = CreateNewButton({
 						Text = Value,
 						Callback = function() end
 					}, DropdownContent)
 
 					NewButton.Size = UDim2.fromScale(1,0) + UDim2.fromOffset(0,20)
-					NewButton.InputBegan:Connect(function(Input)
-                        if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-						    DropdownCallback(Value)
-						    DropdownTitle.Text = DropdownText..": "..Value
-                            DropdownValue = Value
-                        end
+					NewButton.MouseButton1Down:Connect(function()
+						DropdownCallback(Value)
+						DropdownTitle.Text = DropdownText..": "..Value
+                        DropdownValue = Value
 					end)
-				end)
+				end
 			end
 
 			function DropdownLibrary:GetOptions()
@@ -1442,9 +1332,9 @@ function Material.Load(Config)
 
 			local TotalOptions = 0
 
-			table.foreach(ChipSetOptions, function()
+			for _ in pairs(ChipSetOptions) do
 				TotalOptions = TotalOptions + 1
-			end)
+			end
 
 			if TotalOptions > 0 then
 				local Size = UDim2.fromScale(1,0) + UDim2.fromOffset(0,(TotalOptions*30)+((TotalOptions+1)*5))
@@ -1470,19 +1360,19 @@ function Material.Load(Config)
 
 				local BuildTable = {}
 
-				table.foreach(ChipSetOptions, function(Key, Value)
+				for Key, Value in pairs(ChipSetOptions) do
 					if typeof(Value) == "table" then
 						BuildTable[Key] = Value.Enabled
 					else
 						BuildTable[Key] = Value
 					end
-				end)
+				end
 
 				ChipSetCallback(BuildTable)
 
 				TweenService:Create(ChipSet, TweenInfo.new(0.5), {ImageTransparency = 0.9}):Play()
 
-				table.foreach(ChipSetOptions, function(Key, Value)
+				for Key, Value in pairs(ChipSetOptions) do
 					local ChipItem = Objects.new("SmoothButton")
 					ChipItem.Name = "ChipItem"
 					ChipItem.Size = UDim2.fromScale(1,0) + UDim2.fromOffset(0,30)
@@ -1509,7 +1399,7 @@ function Material.Load(Config)
 					ChipLabel.Size = BuildTable[Key] and (UDim2.fromScale(1,1) - UDim2.fromOffset(30)) or (UDim2.fromScale(1,1) - UDim2.fromOffset(5))
 					ChipLabel.Position = BuildTable[Key] and UDim2.fromOffset(30) or UDim2.fromOffset(5)
 					ChipLabel.Text = Key
-					ChipLabel.Font = Enum.Font.Gotham
+					ChipLabel.Font = Enum.Font.Roboto
 					ChipLabel.TextSize = 12
 					ChipLabel.TextColor3 = BuildTable[Key] and Theme.ChipSetAccent or Theme.ChipSet
 					ChipLabel.TextTransparency = 1
@@ -1532,21 +1422,19 @@ function Material.Load(Config)
 						ChipMenu = MenuButton
 					end
 
-					ChipItem.InputBegan:Connect(function(Input)
-                        if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-						    BuildTable[Key] = not BuildTable[Key]
-						    local Enabled = BuildTable[Key]
-						    TweenService:Create(ChipItem, TweenInfo.new(0.15), {ImageColor3 = Enabled and Theme.ChipSet or Theme.ChipSetAccent}):Play()
-						    TweenService:Create(ChipShadow, TweenInfo.new(0.15), {ImageColor3 = Enabled and Theme.ChipSet or Theme.ChipSetAccent}):Play()
-						    TweenService:Create(Tick, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0 or 1}):Play()
-						    TweenService:Create(ChipLabel, TweenInfo.new(0.15), {TextColor3 = Enabled and Theme.ChipSetAccent or Theme.ChipSet, Position = Enabled and UDim2.fromOffset(30) or UDim2.fromOffset(5), Size = Enabled and (UDim2.fromScale(1,1) - UDim2.fromOffset(30)) or (UDim2.fromScale(1,1) - UDim2.fromOffset(5))}):Play()
-						    if ChipMenu then
-							    TweenService:Create(ChipMenu, TweenInfo.new(0.15), {ImageColor3 = Enabled and Theme.ChipSetAccent or Theme.ChipSet}):Play()
-						    end
-						    ChipSetCallback(BuildTable)
-                        end
+					ChipItem.MouseButton1Down:Connect(function()
+						BuildTable[Key] = not BuildTable[Key]
+						local Enabled = BuildTable[Key]
+						TweenService:Create(ChipItem, TweenInfo.new(0.15), {ImageColor3 = Enabled and Theme.ChipSet or Theme.ChipSetAccent}):Play()
+						TweenService:Create(ChipShadow, TweenInfo.new(0.15), {ImageColor3 = Enabled and Theme.ChipSet or Theme.ChipSetAccent}):Play()
+						TweenService:Create(Tick, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0 or 1}):Play()
+						TweenService:Create(ChipLabel, TweenInfo.new(0.15), {TextColor3 = Enabled and Theme.ChipSetAccent or Theme.ChipSet, Position = Enabled and UDim2.fromOffset(30) or UDim2.fromOffset(5), Size = Enabled and (UDim2.fromScale(1,1) - UDim2.fromOffset(30)) or (UDim2.fromScale(1,1) - UDim2.fromOffset(5))}):Play()
+						if ChipMenu then
+							TweenService:Create(ChipMenu, TweenInfo.new(0.15), {ImageColor3 = Enabled and Theme.ChipSetAccent or Theme.ChipSet}):Play()
+						end
+						ChipSetCallback(BuildTable)
 					end)
-				end)
+				end
 
 				local ChipSetLibrary = {}
 
@@ -1555,9 +1443,9 @@ function Material.Load(Config)
 
 					TotalOptions = 0
 
-					table.foreach(ChipSetOptions, function()
+					for _ in pairs(ChipSetOptions) do
 						TotalOptions = TotalOptions + 1
-					end)
+					end
 
 					for _, Element in next, ChipSet:GetChildren() do
 						Element:Destroy()
@@ -1581,19 +1469,19 @@ function Material.Load(Config)
 
 					local BuildTable = {}
 
-					table.foreach(ChipSetOptions, function(Key, Value)
+					for Key, Value in pairs(ChipSetOptions) do
 						if typeof(Value) == "table" then
 							BuildTable[Key] = Value.Enabled
 						else
 							BuildTable[Key] = Value
 						end
-					end)
+					end
 
 					ChipSetCallback(BuildTable)
 
 					TweenService:Create(ChipSet, TweenInfo.new(0.5), {ImageTransparency = 0.9}):Play()
 
-					table.foreach(ChipSetOptions, function(Key, Value)
+					for Key, Value in pairs(ChipSetOptions) do
 						local ChipItem = Objects.new("SmoothButton")
 						ChipItem.Name = "ChipItem"
 						ChipItem.Size = UDim2.fromScale(1,0) + UDim2.fromOffset(0,30)
@@ -1620,7 +1508,7 @@ function Material.Load(Config)
 						ChipLabel.Size = BuildTable[Key] and (UDim2.fromScale(1,1) - UDim2.fromOffset(30)) or (UDim2.fromScale(1,1) - UDim2.fromOffset(5))
 						ChipLabel.Position = BuildTable[Key] and UDim2.fromOffset(30) or UDim2.fromOffset(5)
 						ChipLabel.Text = Key
-						ChipLabel.Font = Enum.Font.Gotham
+						ChipLabel.Font = Enum.Font.Roboto
 						ChipLabel.TextSize = 12
 						ChipLabel.TextColor3 = BuildTable[Key] and Theme.ChipSetAccent or Theme.ChipSet
 						ChipLabel.TextTransparency = 1
@@ -1643,21 +1531,19 @@ function Material.Load(Config)
 							ChipMenu = MenuButton
 						end
 
-						ChipItem.InputBegan:Connect(function(Input)
-                            if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-							    BuildTable[Key] = not BuildTable[Key]
-							    local Enabled = BuildTable[Key]
-							    TweenService:Create(ChipItem, TweenInfo.new(0.15), {ImageColor3 = Enabled and Theme.ChipSet or Theme.ChipSetAccent}):Play()
-							    TweenService:Create(ChipShadow, TweenInfo.new(0.15), {ImageColor3 = Enabled and Theme.ChipSet or Theme.ChipSetAccent}):Play()
-							    TweenService:Create(Tick, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0 or 1}):Play()
-							    TweenService:Create(ChipLabel, TweenInfo.new(0.15), {TextColor3 = Enabled and Theme.ChipSetAccent or Theme.ChipSet, Position = Enabled and UDim2.fromOffset(30) or UDim2.fromOffset(5), Size = Enabled and (UDim2.fromScale(1,1) - UDim2.fromOffset(30)) or (UDim2.fromScale(1,1) - UDim2.fromOffset(5))}):Play()
-							    if ChipMenu then
-								    TweenService:Create(ChipMenu, TweenInfo.new(0.15), {ImageColor3 = Enabled and Theme.ChipSetAccent or Theme.ChipSet}):Play()
-							    end
-							    ChipSetCallback(BuildTable)
-                            end
+						ChipItem.MouseButton1Down:Connect(function()
+							BuildTable[Key] = not BuildTable[Key]
+							local Enabled = BuildTable[Key]
+							TweenService:Create(ChipItem, TweenInfo.new(0.15), {ImageColor3 = Enabled and Theme.ChipSet or Theme.ChipSetAccent}):Play()
+							TweenService:Create(ChipShadow, TweenInfo.new(0.15), {ImageColor3 = Enabled and Theme.ChipSet or Theme.ChipSetAccent}):Play()
+							TweenService:Create(Tick, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0 or 1}):Play()
+							TweenService:Create(ChipLabel, TweenInfo.new(0.15), {TextColor3 = Enabled and Theme.ChipSetAccent or Theme.ChipSet, Position = Enabled and UDim2.fromOffset(30) or UDim2.fromOffset(5), Size = Enabled and (UDim2.fromScale(1,1) - UDim2.fromOffset(30)) or (UDim2.fromScale(1,1) - UDim2.fromOffset(5))}):Play()
+							if ChipMenu then
+								TweenService:Create(ChipMenu, TweenInfo.new(0.15), {ImageColor3 = Enabled and Theme.ChipSetAccent or Theme.ChipSet}):Play()
+							end
+							ChipSetCallback(BuildTable)
 						end)
-					end)
+					end
 				end
 
 				function ChipSetLibrary:GetOptions()
@@ -1675,9 +1561,9 @@ function Material.Load(Config)
 
 			local TotalOptions = 0
 
-			table.foreach(DataTableOptions, function()
+			for _ in pairs(DataTableOptions) do
 				TotalOptions = TotalOptions + 1
-			end)
+			end
 
 			if TotalOptions > 0 then
 
@@ -1713,20 +1599,20 @@ function Material.Load(Config)
 
 				local BuildTable = {}
 
-				table.foreach(DataTableOptions, function(Key, Value)
+				for Key, Value in pairs(DataTableOptions) do
 					if typeof(Value) == "table" then
 						BuildTable[Key] = Value.Enabled
 					else
 						BuildTable[Key] = Value
 					end
-				end)
+				end
 
 				DataTableCallback(BuildTable)
 
 				TweenService:Create(DataTable, TweenInfo.new(0.5), {ImageTransparency = 0.9}):Play()
 				TweenService:Create(DataShadow, TweenInfo.new(0.5), {ImageTransparency = 0.8}):Play()
 
-				table.foreach(DataTableOptions, function(Key, Value)
+				for Key, Value in pairs(DataTableOptions) do
 					local DataItem = Objects.new("SmoothButton")
 					DataItem.Name = "DataItem"
 					DataItem.Size = UDim2.fromScale(1,0) + UDim2.fromOffset(0,30)
@@ -1758,7 +1644,7 @@ function Material.Load(Config)
 					DataLabel.Size = (UDim2.fromScale(1,1) - UDim2.fromOffset(30))
 					DataLabel.Position = UDim2.fromOffset(30) or UDim2.fromOffset(5)
 					DataLabel.Text = Key
-					DataLabel.Font = Enum.Font.Gotham
+					DataLabel.Font = Enum.Font.Roboto
 					DataLabel.TextSize = 14
 					DataLabel.TextColor3 = Theme.DataTable
 					DataLabel.TextTransparency = 1
@@ -1781,17 +1667,15 @@ function Material.Load(Config)
 						DataMenu = MenuButton
 					end
 
-					DataItem.InputBegan:Connect(function(Input)
-                        if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-						    BuildTable[Key] = not BuildTable[Key]
-						    local Enabled = BuildTable[Key]
-						    TweenService:Create(DataItem, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0.8 or 0, ImageColor3 = Enabled and Theme.DataTable or Theme.DataTableAccent}):Play()
-						    TweenService:Create(Tick, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0 or 0.7}):Play()
-						    TweenService:Create(DataTracker, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0 or 0.8}):Play()
-						    DataTableCallback(BuildTable)
-                        end
+					DataItem.MouseButton1Down:Connect(function()
+						BuildTable[Key] = not BuildTable[Key]
+						local Enabled = BuildTable[Key]
+						TweenService:Create(DataItem, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0.8 or 0, ImageColor3 = Enabled and Theme.DataTable or Theme.DataTableAccent}):Play()
+						TweenService:Create(Tick, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0 or 0.7}):Play()
+						TweenService:Create(DataTracker, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0 or 0.8}):Play()
+						DataTableCallback(BuildTable)
 					end)
-				end)
+				end
 
 				local DataTableLibrary = {}
 
@@ -1804,9 +1688,9 @@ function Material.Load(Config)
 
 					TotalOptions = 0
 
-					table.foreach(DataTableOptions, function()
+					for _ in pairs(DataTableOptions) do
 						TotalOptions = TotalOptions + 1
-					end)
+					end
 
 					Size = UDim2.fromScale(1,0) + UDim2.fromOffset(0,(TotalOptions*30)+((TotalOptions+1)*5))
 
@@ -1830,20 +1714,20 @@ function Material.Load(Config)
 
 					local BuildTable = {}
 
-					table.foreach(DataTableOptions, function(Key, Value)
+					for Key, Value in pairs(DataTableOptions) do
 						if typeof(Value) == "table" then
 							BuildTable[Key] = Value.Enabled
 						else
 							BuildTable[Key] = Value
 						end
-					end)
+					end
 
 					DataTableCallback(BuildTable)
 
 					TweenService:Create(DataTable, TweenInfo.new(0.5), {ImageTransparency = 0.9}):Play()
 					TweenService:Create(DataShadow, TweenInfo.new(0.5), {ImageTransparency = 0.8}):Play()
 
-					table.foreach(DataTableOptions, function(Key, Value)
+					for Key, Value in pairs(DataTableOptions) do
 						local DataItem = Objects.new("SmoothButton")
 						DataItem.Name = "DataItem"
 						DataItem.Size = UDim2.fromScale(1,0) + UDim2.fromOffset(0,30)
@@ -1875,7 +1759,7 @@ function Material.Load(Config)
 						DataLabel.Size = (UDim2.fromScale(1,1) - UDim2.fromOffset(30))
 						DataLabel.Position = UDim2.fromOffset(30) or UDim2.fromOffset(5)
 						DataLabel.Text = Key
-						DataLabel.Font = Enum.Font.Gotham
+						DataLabel.Font = Enum.Font.Roboto
 						DataLabel.TextSize = 14
 						DataLabel.TextColor3 = Theme.DataTable
 						DataLabel.TextTransparency = 1
@@ -1898,17 +1782,15 @@ function Material.Load(Config)
 							DataMenu = MenuButton
 						end
 
-						DataItem.InputBegan:Connect(function(Input)
-                            if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-							    BuildTable[Key] = not BuildTable[Key]
-							    local Enabled = BuildTable[Key]
-							    TweenService:Create(DataItem, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0.8 or 0, ImageColor3 = Enabled and Theme.DataTable or Theme.DataTableAccent}):Play()
-							    TweenService:Create(Tick, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0 or 0.7}):Play()
-							    TweenService:Create(DataTracker, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0 or 0.8}):Play()
-							    DataTableCallback(BuildTable)
-                            end
+						DataItem.MouseButton1Down:Connect(function()
+							BuildTable[Key] = not BuildTable[Key]
+							local Enabled = BuildTable[Key]
+							TweenService:Create(DataItem, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0.8 or 0, ImageColor3 = Enabled and Theme.DataTable or Theme.DataTableAccent}):Play()
+							TweenService:Create(Tick, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0 or 0.7}):Play()
+							TweenService:Create(DataTracker, TweenInfo.new(0.15), {ImageTransparency = Enabled and 0 or 0.8}):Play()
+							DataTableCallback(BuildTable)
 						end)
-					end)
+					end
 				end
 
 				function DataTableLibrary:GetOptions()
@@ -1938,11 +1820,9 @@ function Material.Load(Config)
 			ColorPicker.ClipsDescendants = true
 			ColorPicker.Parent = PageContentFrame
 
-			ColorPicker.InputBegan:Connect(function(Input)
-                if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-				    ColorPickerToggle = not ColorPickerToggle
-				    TweenService:Create(ColorPicker, TweenInfo.new(0.15), {Size = UDim2.fromScale(1,0) + (ColorPickerToggle and UDim2.fromOffset(0,115) or UDim2.fromOffset(0,40))}):Play()
-                end
+			ColorPicker.MouseButton1Down:Connect(function()
+				ColorPickerToggle = not ColorPickerToggle
+				TweenService:Create(ColorPicker, TweenInfo.new(0.15), {Size = UDim2.fromScale(1,0) + (ColorPickerToggle and UDim2.fromOffset(0,115) or UDim2.fromOffset(0,40))}):Play()
 			end)
 
 			local ColorBar = Objects.new("Round")
@@ -1960,7 +1840,7 @@ function Material.Load(Config)
 
 			local ColorLabel = Objects.new("Label")
 			ColorLabel.Name = "Title"
-			ColorLabel.Font = Enum.Font.GothamSemibold
+			ColorLabel.Font = Enum.Font.Roboto
 			ColorLabel.TextColor3 = Theme.ColorPickerAccent
 			ColorLabel.TextSize = 14
 			ColorLabel.Text = ColorPickerText
@@ -2008,7 +1888,7 @@ function Material.Load(Config)
 			HueLabel.Text = "H"
 			HueLabel.TextColor3 = Theme.ColorPickerAccent
 			HueLabel.TextSize = 12
-			HueLabel.Font = Enum.Font.GothamBold
+			HueLabel.Font = Enum.Font.Roboto
 			HueLabel.TextTransparency = 1
 			HueLabel.Parent = Hue
 
@@ -2144,40 +2024,47 @@ function Material.Load(Config)
 				ColorPickerCallback(Color3.fromHSV(H.Value,S.Value,V.Value))
 			end)
 
-            -- Mobile Compatible Color Dragging
-            local function UpdateColorInput(Obj, ValObj, Input)
-                 ValObj.Value = 1 - GetXY(Obj, Input)
-            end
+			HueTracker.MouseButton1Down:Connect(function()
+				H.Value = 1 - GetXY(HueTracker)
+				local MouseMove, MouseKill
+				MouseMove = Mouse.Move:Connect(function()
+					H.Value = 1 - GetXY(HueTracker)
+				end)
+				MouseKill = InputService.InputEnded:Connect(function(UserInput)
+					if UserInput.UserInputType == Enum.UserInputType.MouseButton1 then
+						MouseMove:Disconnect()
+						MouseKill:Disconnect()
+					end
+				end)
+			end)
 
-            local function SetupColorDrag(Obj, ValObj)
-                local Dragging = false
-                local DragConnection
+			ValueTracker.MouseButton1Down:Connect(function()
+				V.Value = 1 - GetXY(HueTracker)
+				local MouseMove, MouseKill
+				MouseMove = Mouse.Move:Connect(function()
+					V.Value = 1 - GetXY(HueTracker)
+				end)
+				MouseKill = InputService.InputEnded:Connect(function(UserInput)
+					if UserInput.UserInputType == Enum.UserInputType.MouseButton1 then
+						MouseMove:Disconnect()
+						MouseKill:Disconnect()
+					end
+				end)
+			end)
 
-                Obj.InputBegan:Connect(function(Input)
-                    if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-                        Dragging = true
-                        UpdateColorInput(Obj, ValObj, Input)
-                        
-                        DragConnection = InputService.InputChanged:Connect(function(Input2)
-                            if (Input2.UserInputType == Enum.UserInputType.MouseMovement or Input2.UserInputType == Enum.UserInputType.Touch) and Dragging then
-                                UpdateColorInput(Obj, ValObj, Input2)
-                            end
-                        end)
-
-                        Input.Changed:Connect(function()
-                            if Input.UserInputState == Enum.UserInputState.End then
-                                Dragging = false
-                                if DragConnection then DragConnection:Disconnect() end
-                            end
-                        end)
-                    end
-                end)
-            end
-
-            SetupColorDrag(HueTracker, H)
-            SetupColorDrag(SaturationTracker, S)
-            SetupColorDrag(ValueTracker, V)
-
+			SaturationTracker.MouseButton1Down:Connect(function()
+				S.Value = 1 - GetXY(HueTracker)
+				local MouseMove, MouseKill
+				MouseMove = Mouse.Move:Connect(function()
+					S.Value = 1 - GetXY(HueTracker)
+				end)
+				MouseKill = InputService.InputEnded:Connect(function(UserInput)
+					if UserInput.UserInputType == Enum.UserInputType.MouseButton1 then
+						MouseMove:Disconnect()
+						MouseKill:Disconnect()
+					end
+				end)
+			end)
 
 			local MenuAdded, MenuButton = TryAddMenu(ColorLabel, ColorPickerMenu, {})
 
@@ -2250,7 +2137,7 @@ function Material.Load(Config)
 			DotShadow.Parent = Dot
 
 			local ToggleLabel = Objects.new("Label")
-			ToggleLabel.Font = Enum.Font.GothamSemibold
+			ToggleLabel.Font = Enum.Font.Roboto
 			ToggleLabel.TextSize = 14
 			ToggleLabel.Text = ToggleText
 			ToggleLabel.TextColor3 = Theme.Toggle
@@ -2267,13 +2154,11 @@ function Material.Load(Config)
 			TweenService:Create(Dot, TweenInfo.new(0.15), {Position = (ToggleDefault and UDim2.fromScale(1,0.5) or UDim2.fromScale(0,0.5)) - UDim2.fromOffset(8,8), ImageColor3 = ToggleDefault and Theme.Toggle or Theme.ToggleAccent}):Play()
 			ToggleCallback(ToggleDefault)
 
-			Toggle.InputBegan:Connect(function(Input)
-                if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-				    ToggleDefault = not ToggleDefault
-				    TweenService:Create(Dot, TweenInfo.new(0.15), {Position = (ToggleDefault and UDim2.fromScale(1,0.5) or UDim2.fromScale(0,0.5)) - UDim2.fromOffset(8,8), ImageColor3 = ToggleDefault and Theme.Toggle or Theme.ToggleAccent}):Play()
-				    ToggleCallback(ToggleDefault)
-				    CircleAnim(ToggleLabel, Theme.ToggleAccent, Theme.Toggle, Input)
-                end
+			Toggle.MouseButton1Down:Connect(function()
+				ToggleDefault = not ToggleDefault
+				TweenService:Create(Dot, TweenInfo.new(0.15), {Position = (ToggleDefault and UDim2.fromScale(1,0.5) or UDim2.fromScale(0,0.5)) - UDim2.fromOffset(8,8), ImageColor3 = ToggleDefault and Theme.Toggle or Theme.ToggleAccent}):Play()
+				ToggleCallback(ToggleDefault)
+				CircleAnim(ToggleLabel, Theme.ToggleAccent, Theme.Toggle)
 			end)
 
 			local MenuAdded, MenuButton = TryAddMenu(Toggle, Menu, {})
@@ -2339,7 +2224,7 @@ function Material.Load(Config)
 			TextInput.TextInputType = Enum.TextInputType[TextFieldInputType]
 			TextInput.TextColor3 = Theme.TextFieldAccent
 			TextInput.Text = ""
-			TextInput.Font = Enum.Font.GothamSemibold
+			TextInput.Font = Enum.Font.Roboto
 			TextInput.TextSize = 14
 			TextInput.TextTransparency = 1
 			TextInput.Parent = TextField
@@ -2397,7 +2282,7 @@ function Material.Load(Config)
 			LabelContent.TextColor3 = Theme.ChipSet
 			LabelContent.Text = LabelText:upper()
 			LabelContent.TextSize = 12
-			LabelContent.Font = Enum.Font.GothamSemibold
+			LabelContent.Font = Enum.Font.Roboto
 			LabelContent.Size = UDim2.fromScale(1,1) + UDim2.fromOffset(-5,0)
 			LabelContent.Position = UDim2.fromOffset(5,0)
 			LabelContent.Parent = LabelContainer
@@ -2443,7 +2328,7 @@ function Material.Load(Config)
 			SliderTitle.TextColor3 = Theme.SliderAccent
 			SliderTitle.Text = SliderText
 			SliderTitle.TextSize = 14
-			SliderTitle.Font = Enum.Font.GothamSemibold
+			SliderTitle.Font = Enum.Font.Roboto
 			SliderTitle.Size = UDim2.fromScale(1,0) + UDim2.fromOffset(-5,25)
 			SliderTitle.TextTransparency = 1
 			SliderTitle.Parent = Slider
@@ -2456,7 +2341,7 @@ function Material.Load(Config)
 			SliderValue.Size = UDim2.fromScale(1,0) + UDim2.fromOffset(-5,25)
 			SliderValue.Position = UDim2.fromScale(0,0)
 			SliderValue.TextXAlignment = Enum.TextXAlignment.Right
-			SliderValue.Font = Enum.Font.GothamSemibold
+			SliderValue.Font = Enum.Font.Roboto
 			SliderValue.Parent = Slider
 
 			local SliderTracker = Objects.new("Frame")
@@ -2502,14 +2387,86 @@ function Material.Load(Config)
 			TweenService:Create(SliderFill, TweenInfo.new(0.5), {BackgroundTransparency = 0}):Play()
 			TweenService:Create(SliderDot, TweenInfo.new(0.5), {ImageTransparency = 0}):Play()
 
-            -- Mobile Compatible Slider
-			SliderDot.InputBegan:Connect(function(Input)
-                if Input.UserInputType == Enum.UserInputType.MouseButton1 or Input.UserInputType == Enum.UserInputType.Touch then
-				    TweenService:Create(SliderFadedDot, TweenInfo.new(0.15), {ImageTransparency = 0.8}):Play()
-				    
-                    local Dragging = true
-                    local DragConnection 
+			SliderDot.MouseButton1Down:Connect(function()
+				TweenService:Create(SliderFadedDot, TweenInfo.new(0.15), {ImageTransparency = 0.8}):Play()
+				local MouseMove, MouseKill
+				MouseMove = Mouse.Move:Connect(function()
+					local Px = GetXY(SliderTracker)
+					local SizeFromScale = (MinSize +  (MaxSize - MinSize)) * Px
+					local Power = 10 ^ SliderPrecision
+					local Value = math.floor((SliderMin + ((SliderMax - SliderMin) * Px)) * Power) / Power
+					SizeFromScale = SizeFromScale - (SizeFromScale % 2)
+					TweenService:Create(SliderDot, TweenInfo.new(0.15), {Position = UDim2.fromScale(Px,0.5) - UDim2.fromOffset(5,5)}):Play()
+					TweenService:Create(SliderFill, TweenInfo.new(0.15), {Size = UDim2.fromScale(Px, 1)}):Play()
+					SliderFadedDot.Size = UDim2.fromOffset(SizeFromScale,SizeFromScale)
+					SliderFadedDot.Position = UDim2.fromScale(0.5,0.5) - UDim2.fromOffset(SizeFromScale/2,SizeFromScale/2)
+					SliderValue.Text = tostring(Value)
+					SliderCallback(Value)
+				end)
+				MouseKill = InputService.InputEnded:Connect(function(UserInput)
+					if UserInput.UserInputType == Enum.UserInputType.MouseButton1 then
+						TweenService:Create(SliderFadedDot, TweenInfo.new(0.15), {ImageTransparency = 1}):Play()
+						MouseMove:Disconnect()
+						MouseKill:Disconnect()
+					end
+				end)
+			end)
 
-                    local function Update(Input2)
-                        local Px = GetXY(SliderTracker, Input2)
-						local SizeFrom
+			local MenuAdded, MenuButton = TryAddMenu(Slider, Menu, {})
+
+			if MenuAdded then
+				SliderValue.Position = SliderValue.Position - UDim2.fromOffset(25,0)
+				SliderTracker.Size = SliderTracker.Size - UDim2.fromOffset(20,0)
+				MenuButton.ImageColor3 = Theme.SliderAccent
+			end
+
+			local SliderLibrary = {}
+
+			function SliderLibrary:SetText(Value)
+				SliderTitle.Text = Value
+			end
+
+			function SliderLibrary:GetText()
+				return SliderTitle.Text
+			end
+
+            function SliderLibrary:GetValue()
+                return tonumber(SliderValue.Text)
+            end
+
+			function SliderLibrary:SetMin(Value)
+				SliderMin = Value
+				local SliderDef = math.clamp(SliderConfig.Def, SliderMin, SliderMax) or math.clamp(50, SliderMin, SliderMax)
+				local DefaultScale =  (SliderDef - SliderMin) / (SliderMax - SliderMin)
+				local SizeFromScale = (MinSize +  (MaxSize - MinSize)) * DefaultScale
+				SizeFromScale = SizeFromScale - (SizeFromScale % 2)
+				SliderDot.Position = UDim2.fromScale(DefaultScale,0.5) - UDim2.fromOffset(SizeFromScale/2,SizeFromScale/2)
+			end
+
+			function SliderLibrary:SetMax(Value)
+				SliderMax = Value
+				local SliderDef = math.clamp(SliderConfig.Def, SliderMin, SliderMax) or math.clamp(50, SliderMin, SliderMax)
+				local DefaultScale =  (SliderDef - SliderMin) / (SliderMax - SliderMin)
+				local SizeFromScale = (MinSize +  (MaxSize - MinSize)) * DefaultScale
+				SizeFromScale = SizeFromScale - (SizeFromScale % 2)
+				SliderDot.Position = UDim2.fromScale(DefaultScale,0.5) - UDim2.fromOffset(SizeFromScale/2,SizeFromScale/2)
+			end
+
+			function SliderLibrary:GetMin()
+				return SliderMin
+			end
+
+			function SliderLibrary:GetMax()
+				return SliderMax
+			end
+
+			return SliderLibrary
+		end
+
+		return OptionLibrary
+	end
+
+	return TabLibrary
+end
+
+return Material
